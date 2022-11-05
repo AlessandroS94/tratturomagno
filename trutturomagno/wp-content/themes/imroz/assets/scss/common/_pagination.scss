@@ -1,0 +1,131 @@
+/*=====================
+    Pagination Styles 
+=======================*/
+.rn-pagination {
+    .page-link-holder {
+        margin-right: 10px;
+    }
+    ul{
+        &.page-numbers,
+        &.page-list {
+            @extend %liststyle;
+            margin: -5px;
+            li {
+                display: inline-block;
+                padding: 5px;
+                margin-top: 0;
+                margin-bottom: 0;
+                a {
+                    padding: 0 10px;
+                    display: block;
+                    text-align: center;
+                    line-height: 38px;
+                    min-width: 42px;
+                    height: 42px;
+                    border: 2px solid var(--color-border);
+                    background: #fff;
+                    color: #000000;
+                    position: relative;
+                    z-index: 2;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    transition: 0.3s;
+                    &::before {
+                        background-color: var(--color-primary);
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        content: "";
+                        z-index: -1;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.3s;
+                    }
+                    &:hover {
+                        color: #ffffff !important;
+                        border-color: var(--color-primary) !important;
+                        &::before {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+                .current{
+                    padding: 0 10px;
+                    display: block;
+                    text-align: center;
+                    line-height: 38px;
+                    min-width: 42px;
+                    height: 42px;
+                    position: relative;
+                    z-index: 2;
+                    font-weight: 600;
+                    border-radius: 4px;
+                    background-color: var(--color-primary);
+                    color: #ffffff;
+                    border: 2px solid var(--color-border);
+                    border-color: var(--color-primary);
+                    &::before {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+                &.active{
+                    a {
+                        color: #ffffff;
+                        border-color: var(--color-primary);
+                        &::before {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*---------------------------
+    Post Pagination  
+----------------------------*/
+.rn-pagination ,
+.page-links {
+    .post-page-numbers {
+        padding: 0 10px;
+        display: inline-block;
+        text-align: center;
+        line-height: 38px;
+        min-width: 42px;
+        height: 42px;
+        border: 2px solid var(--color-border);
+        background: #fff;
+        color: #000000;
+        position: relative;
+        z-index: 2;
+        font-weight: 600;
+        border-radius: 4px;
+        transition: 0.3s;
+        font-size: 14px;
+        background-color: transparent;
+        &:hover {
+            color: #ffffff;
+            border-color: var(--color-primary);
+            background-color: var(--color-primary);
+        }
+        &.current{
+            background-color: var(--color-primary);
+            border: 2px solid var(--color-primary);
+            border-color: var(--color-primary);
+            color: #ffffff;
+           
+        }
+    }
+}
+
+
+
+
+

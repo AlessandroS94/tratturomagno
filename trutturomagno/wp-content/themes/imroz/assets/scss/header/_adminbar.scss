@@ -1,0 +1,109 @@
+
+/*-------------------------------
+    Admin Bar Style  
+---------------------------------*/
+.admin-bar .header-area.header--transparent,
+.admin-bar .header-area.header--transparent.sticky,
+.admin-bar .header-area.header--sticky.sticky {
+    top: 32px;
+}
+@media screen and (max-width: 782px) {
+    .admin-bar .header-area.header--transparent,
+    .admin-bar .header-area.header--transparent.sticky,
+    .admin-bar .header-area.header--sticky.sticky {
+        top: 46px;
+    }
+
+}
+
+
+/* Admin Bar */
+
+@media only screen and (min-width: 779px) {
+
+    body.admin-bar .side-nav,
+    body.admin-bar .popup-mobile-manu {
+        top: 32px
+    }
+}
+
+@media only screen and (max-width: 779px) and (min-width: 601px) {
+    body.admin-bar .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        top: 46px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 779px) {
+
+    body.admin-bar .popup-mobile-manu,
+    body.admin-bar .side-nav {
+        top: 0
+    }
+}
+
+@media only screen and (max-width: 779px) and (min-width: 601px) {
+
+    body.admin-bar .popup-mobile-manu,
+    body.admin-bar .side-nav {
+        top: 0
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    body.admin-bar .popup-mobile-manu,
+    body.admin-bar .side-nav,
+    .admin-bar .header-area.header--transparent.sticky,
+    .admin-bar .header-area.header--sticky.sticky {
+        top: 0
+    }
+
+    body.admin-bar .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        top: 46px;
+    }
+
+    body.admin-bar .header-area.sticky .header-wrapper .mainmenunav ul.mainmenu {
+        top: 0;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 779px) {
+    body.admin-bar .header-area {
+        z-index: 99999;
+    }
+
+    body.admin-bar .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        top: 0;
+    }
+
+    body.admin-bar .header-area .header-wrapper .close-menu {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 779px) and (min-width: 601px) {
+    body.admin-bar .header-area {
+        z-index: 99999;
+    }
+
+    body.admin-bar .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        top: 0;
+    }
+
+    body.admin-bar .header-area .header-wrapper .close-menu {
+        top: -17px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body.admin-bar .header-area {
+        z-index: 99999;
+    }
+
+    body.admin-bar .header-area .header-wrapper .mainmenunav ul.mainmenu {
+        top: 0;
+    }
+
+    body.admin-bar .header-area .header-wrapper .close-menu {
+        top: -17px;
+    }
+}

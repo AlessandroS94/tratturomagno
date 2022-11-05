@@ -1,0 +1,178 @@
+/*********************************************************************************
+
+	Template Name: Imroz - Html5 Agency & Portfolio Template
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ mainmenu
+	|
+	|
+	|___Inner Styles
+	|	|___ breadcrump 
+	|	|___ section-title 
+	|	|___ button
+	|	|___ pagination
+	|	|___ socialicon
+	|	|___ footer
+	|
+	|___Elements Styles
+	|	|___ portfolio 
+	|	|___ service 
+	|	|___ slider 
+	|	|___ counterup 
+	|	|___ testimonial 
+	|	|___ brand 
+	|	|___ team 
+	|	|___ callto-action 
+	|	|___ tab 
+	|	|___ accordion 
+	|	|___ list 
+	|	|___ contact 
+	|
+	|___BLog Styles
+	|	|___ blog 
+	|	|___ blog-details 
+	|
+	|___Template Styles
+	|	|___ about 
+	|	|___ portfolio-details
+	|	|___ service-details
+	|	|___ preview
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+@import 'default/forms';
+
+
+
+
+
+/**************************************
+    Inner Styles
+***************************************/
+@import 'common/button';
+@import 'common/breadcrump';
+@import 'common/video-popup';
+@import 'common/section-title';
+@import 'common/pagination';
+@import 'common/socialicon';
+@import 'common/animation';
+@import 'common/unitbutton';
+@import 'common/ytbutton';
+@import 'common/slick-style';
+@import 'common/preloader';
+
+
+/**************************************
+    Header Styles
+***************************************/
+
+@import 'header/header';
+@import 'header/nav';
+@import 'header/mainmenu';
+@import 'header/onepagenav';
+@import 'header/popupmenu';
+@import 'header/adminbar';
+
+
+/**************************************
+    Elements Styles
+***************************************/
+
+@import 'elements/portfolio';
+@import 'elements/service';
+@import 'elements/slider';
+@import 'elements/counterup';
+@import 'elements/testimonial';
+@import 'elements/brand';
+@import 'elements/team';
+@import 'elements/callto-action';
+@import 'elements/tab';
+@import 'elements/accordion';
+@import 'elements/list';
+@import 'elements/contact';
+@import 'elements/progress';
+@import 'elements/column';
+@import 'elements/404';
+@import 'elements/pricing';
+@import 'elements/backtotop';
+
+
+
+/**************************************
+    Blog Styles
+***************************************/
+
+@import 'blog/unit-default';
+@import 'blog/blog';
+@import 'blog/wp-blog';
+@import 'blog/blog-details';
+@import 'blog/blogsidebar';
+
+
+
+
+/**************************************
+    Shop Styles
+***************************************/
+
+@import 'shop/product';
+@import 'shop/sidebar';
+
+
+
+
+/**************************************
+    Footer Styles
+***************************************/
+@import 'footer/footer';
+@import 'footer/footerwidget';
+
+
+
+/**************************************
+    Template Styles
+***************************************/
+
+@import 'template/about';
+@import 'template/portfolio-details';
+@import 'template/service-details';
+@import 'template/corporate-agency';
+@import 'template/switcher';
+@import 'template/dark-version';
+@import 'template/preview';

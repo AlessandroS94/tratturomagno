@@ -1,0 +1,1549 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Imroz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-18 11:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.5; wp-5.8.2\n"
+"X-Domain: imroz"
+
+#: inc/options/theme/option-framework.php:521
+msgid ""
+"\n"
+"    Page Banner"
+msgstr ""
+
+#: inc/comment-form.php:61 inc/comment-form.php:130
+msgid " <i class=\"rbt feather-corner-down-right\"></i> Reply"
+msgstr ""
+
+#: inc/global-functions.php:24
+msgid " min read"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "% Comments"
+msgstr ""
+
+#: inc/comment-form.php:41 inc/comment-form.php:107
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/underscore/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/global-functions.php:56
+msgid "--- Select ---"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "1 Comment"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1091
+msgid "404 Page"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1100
+msgid "404!"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Add"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:10
+msgid "Add Social Icons"
+msgstr ""
+
+#: inc/widget-area-register.php:14 inc/widget-area-register.php:25
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1113
+msgid "Add your custom description."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1106
+msgid "Add your custom subtitle."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1099
+msgid "Add your Default title."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1248
+msgid "Additional Information Tab"
+msgstr ""
+
+#: inc/tgm-config.php:27
+msgid "Advanced Custom Fields Pro"
+msgstr ""
+
+#: inc/customizer/color.php:60
+msgid "Allows you to customize some example settings for imroz."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:596
+#: inc/options/theme/option-framework.php:858
+msgid "Archive"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:189
+#: template-parts/title/breadcrumb.php:193
+#: template-parts/title/breadcrumb.php:197
+#: template-parts/title/breadcrumb.php:204
+#: template-parts/title/breadcrumb.php:208
+#: template-parts/title/breadcrumb.php:213
+msgid "Archives"
+msgstr ""
+
+#: inc/options/post-format-options.php:6
+msgid "Audio Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:635
+#: inc/options/theme/option-framework.php:768
+msgid "Author"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:224
+msgid "Author: "
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:139
+msgid "Average"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1132
+msgid "Back To Homepage"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:529
+msgid "Banner"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:571
+msgid "Banner Background Image Overlay"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:540
+#: inc/options/theme/option-framework.php:541
+msgid "Banner Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:545
+#: inc/options/theme/option-framework.php:546
+msgid "Banner Layout 2"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:589
+msgid "Blog"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:606
+msgid "Blog"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:556
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/options/page-options.php:287
+msgid "Breadcrumbs Enable"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1119
+msgid "Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1130
+msgid "Button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:397
+msgid "Button Url"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:390
+msgid "BUY NOW"
+msgstr ""
+
+#: inc/options/page-options.php:89
+msgid "By default works primary location menu."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1259
+msgid "Cart page"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:879
+msgid "Case Study"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:867
+msgid "Case Study Button (View Details)"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:690
+#: inc/options/theme/option-framework.php:823
+#: inc/options/theme/option-framework.php:1208
+msgid "Categories"
+msgstr ""
+
+#: woocommerce/custom/template-parts/content-product-meta.php:12
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/options/theme/option-framework.php:612
+msgid "Choose your favorite blog layout"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1162
+msgid "Choose your favorite shop layout"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:10
+msgid "Client"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:913
+#: inc/options/theme/option-framework.php:925
+msgid "Client Name"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:924
+msgid "Client Name Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:679
+#: inc/options/theme/option-framework.php:812
+msgid "Comments"
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "Comments off"
+msgstr ""
+
+#. 1: number of comments, 2: post title
+#: comments.php:39
+#, php-format
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: post title
+#: comments.php:35
+#, php-format
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/tgm-config.php:45
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:490
+msgid "CONTACT US"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:605
+msgid ""
+"Controls the Default title of the page which is displayed on the page title "
+"are on the blog page."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:258
+msgid ""
+"Controls the font settings of the site title. (Note: Used when Transparent "
+"Header is enabled.)"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:221
+msgid ""
+"Controls the top, right, bottom and left padding of the logo. (Note: Used "
+"when Transparent Header is enabled.)"
+msgstr ""
+
+#: inc/customizer/color.php:442
+msgid "Copyright Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:505
+msgid "Copyright Content"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:510
+msgid ""
+"Copyright © 2022 Imroz WordPress Theme. Built with love in Bangladesh All "
+"rights reserved."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1267
+msgid "Cross Sell Products"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:475
+msgid "CTA  Pre Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:482
+msgid "CTA  Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:489
+msgid "CTA Button Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:496
+msgid "CTA Button UTL"
+msgstr ""
+
+#: inc/options/post-format-options.php:104
+msgid "Custom Link"
+msgstr ""
+
+#: inc/options/page-options.php:353
+msgid "Custom Sub Title"
+msgstr ""
+
+#: inc/options/page-options.php:319
+msgid "Custom Title"
+msgstr ""
+
+#: functions.php:124
+msgid "Dark"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:166
+msgid "Dark Logo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:156
+msgid "Default Logo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:604
+msgid "Default Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1112
+msgid "Description"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1232
+msgid "Description Tab"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:138
+#: inc/options/theme/option-framework.php:382
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/color.php:345
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:63
+msgid "Edit"
+msgstr ""
+
+#: inc/tgm-config.php:40
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: comments.php:91
+msgid "Email "
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:128
+msgid "Email *"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:267
+msgid "Enable Back To Top"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:530
+msgid "Enable or disable the banner area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:557
+msgid "Enable or disable the breadcrumb area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:435
+msgid "Enable or disable the footer area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1120
+msgid "Enable or disable the go to home page button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:344
+msgid "Enable or disable the header area."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:278
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:268
+msgid ""
+"Enable the back to top button that appears in the bottom right corner of the "
+"screen."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:405
+msgid "Enable to activate the sticky header."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:413
+msgid "Enable to make the header area transparent."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:137
+#: inc/options/theme/option-framework.php:381
+msgid "Enabled"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:136
+msgid "Enabled Dark/Light Switcher Form User End"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:48
+msgid "Enter Social Icon Link"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:29
+msgid "Enter Social Icon Markup"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:300
+msgid ""
+"Enter social links to show the icons. In case you want to hide any field, "
+"just keep that field empty"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:239
+msgid ""
+"Enter your site title here. (Note: Used when Transparent Header is enabled.)"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:239
+msgid "Error 404"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1015
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/color.php:358 inc/options/page-options.php:379
+#: inc/options/theme/option-framework.php:427
+#: inc/options/theme/option-framework.php:434
+msgid "Footer"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:445
+#: inc/options/theme/option-framework.php:446
+msgid "Footer Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:450
+#: inc/options/theme/option-framework.php:451
+msgid "Footer Layout 2"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:455
+#: inc/options/theme/option-framework.php:456
+msgid "Footer Layout 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:460
+#: inc/options/theme/option-framework.php:461
+msgid "Footer Layout 4"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:196
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/widget-area-register.php:35
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: inc/widget-area-register.php:36
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: inc/widget-area-register.php:37
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: inc/widget-area-register.php:38
+msgid "Footer Widget Area 4"
+msgstr ""
+
+#: comments.php:89
+msgid "Full Name"
+msgstr ""
+
+#: inc/options/post-format-options.php:53
+msgid "Gallery Image"
+msgstr ""
+
+#: inc/options/post-format-options.php:49
+msgid "Gallery Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:113
+#: inc/options/theme/option-framework.php:119
+#: inc/options/theme/option-framework.php:1153
+msgid "General"
+msgstr ""
+
+#: inc/customizer/color.php:66
+msgid "Global Colors"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:138
+msgid "Good"
+msgstr ""
+
+#: inc/customizer/color.php:205
+msgid "Gradient Color - 1"
+msgstr ""
+
+#: inc/customizer/color.php:228
+msgid "Gradient Color - 2"
+msgstr ""
+
+#: inc/customizer/color.php:251
+msgid "Gradient Color - 3"
+msgstr ""
+
+#: functions.php:129
+msgid "Gray"
+msgstr ""
+
+#: inc/customizer/color.php:268 inc/options/page-options.php:9
+#: inc/options/theme/option-framework.php:336
+#: inc/options/theme/option-framework.php:343
+msgid "Header"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:380
+msgid "Header Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:389
+msgid "Header button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:354
+#: inc/options/theme/option-framework.php:355
+msgid "Header Layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:359
+#: inc/options/theme/option-framework.php:360
+msgid "Header Layout 2"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:364
+#: inc/options/theme/option-framework.php:365
+msgid "Header Layout 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:369
+#: inc/options/theme/option-framework.php:370
+msgid "Header Layout 4"
+msgstr ""
+
+#: inc/options/page-options.php:148 inc/options/theme/option-framework.php:404
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/options/page-options.php:180 inc/options/theme/option-framework.php:412
+msgid "Header Transparent"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:639
+#: inc/options/theme/option-framework.php:650
+#: inc/options/theme/option-framework.php:661
+#: inc/options/theme/option-framework.php:672
+#: inc/options/theme/option-framework.php:683
+#: inc/options/theme/option-framework.php:694
+#: inc/options/theme/option-framework.php:705
+#: inc/options/theme/option-framework.php:716
+#: inc/options/theme/option-framework.php:772
+#: inc/options/theme/option-framework.php:783
+#: inc/options/theme/option-framework.php:794
+#: inc/options/theme/option-framework.php:805
+#: inc/options/theme/option-framework.php:816
+#: inc/options/theme/option-framework.php:827
+#: inc/options/theme/option-framework.php:838
+#: inc/options/theme/option-framework.php:871
+#: inc/options/theme/option-framework.php:917
+#: inc/options/theme/option-framework.php:937
+#: inc/options/theme/option-framework.php:957
+#: inc/options/theme/option-framework.php:977
+#: inc/options/theme/option-framework.php:1007
+#: inc/options/theme/option-framework.php:1019
+#: inc/options/theme/option-framework.php:1032
+#: inc/options/theme/option-framework.php:1045
+#: inc/options/theme/option-framework.php:1061
+#: inc/options/theme/option-framework.php:1210
+#: inc/options/theme/option-framework.php:1218
+#: inc/options/theme/option-framework.php:1226
+#: inc/options/theme/option-framework.php:1234
+#: inc/options/theme/option-framework.php:1242
+#: inc/options/theme/option-framework.php:1250
+#: inc/options/theme/option-framework.php:1269
+msgid "Hide"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:23
+#: woocommerce/custom/wooc-functions.php:170
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://rainbowit.net/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://rainbowit.net/themes/imroz"
+msgstr ""
+
+#: functions.php:162
+msgid "Huge"
+msgstr ""
+
+#: inc/demo-import-config.php:27
+msgid "Importing may take 5-10 minutes."
+msgstr ""
+
+#. Name of the theme
+msgid "Imroz"
+msgstr ""
+
+#: inc/customizer/color.php:57
+msgid "Imroz Colors Options"
+msgstr ""
+
+#: inc/tgm-config.php:20
+msgid "Imroz Core"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:27
+#: inc/options/theme/option-framework.php:28
+msgid "Imroz Theme Options"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:157
+msgid "Large"
+msgstr ""
+
+#: template-parts/title/blog-title.php:55
+msgid "Latest Posts"
+msgstr ""
+
+#: comments.php:32
+msgid "Leave a comment"
+msgstr ""
+
+#. %s: post title
+#: inc/underscore/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: comments.php:103
+msgid "Leave a Reply"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:615
+#: inc/options/theme/option-framework.php:617
+#: inc/options/theme/option-framework.php:1165
+#: inc/options/theme/option-framework.php:1167
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:483
+msgid "Let's get to work"
+msgstr ""
+
+#: functions.php:134
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/color.php:421
+msgid "Link Color"
+msgstr ""
+
+#: inc/options/post-format-options.php:100
+msgid "Link Post Options"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1041
+msgid "Linkedin"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/underscore/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/options/portfolio-meta.php:48
+msgid "Live Link"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:973
+#: inc/options/theme/option-framework.php:985
+msgid "Live Preview"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:991
+msgid "Live Preview Button Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:984
+msgid "Live Preview Text"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:54
+msgid "Log in"
+msgstr ""
+
+#: inc/comment-form.php:62 inc/comment-form.php:131
+msgid "Log in to Reply"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:209
+msgid "Logo Height"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:220
+msgid "Logo Padding"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/options/page-options.php:116
+msgid "Menu Type"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Nunito+Sans Sans, translate this to 'off'. Do not translate into your own language.
+#: inc/register-custom-fonts.php:13
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: woocommerce/custom/template-parts/content-product-sku.php:12
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:127
+msgid "Name *"
+msgstr ""
+
+#: inc/customizer/color.php:326
+msgid "Navigation Background Color After Sticky"
+msgstr ""
+
+#: inc/customizer/color.php:287
+msgid "Navigation Link Color"
+msgstr ""
+
+#: inc/customizer/color.php:307
+msgid "Navigation Link Color After Sticky and Dropdown"
+msgstr ""
+
+#: inc/comment-nav.php:18
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:130
+#: inc/options/theme/option-framework.php:271
+#: inc/options/theme/option-framework.php:281
+msgid "No"
+msgstr ""
+
+#: inc/helper/meta-trait.php:34 inc/helper/meta-trait.php:69
+msgid "No Comments"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:625
+#: inc/options/theme/option-framework.php:627
+#: inc/options/theme/option-framework.php:1175
+#: inc/options/theme/option-framework.php:1177
+msgid "No Sidebar"
+msgstr ""
+
+#: functions.php:152
+msgid "Normal"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:140
+msgid "Not that bad"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1191
+msgid "Number of Products Per Page"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1185
+msgid "Number of Products Per Row"
+msgstr ""
+
+#: inc/comment-nav.php:13
+msgid "Older Comments"
+msgstr ""
+
+#: inc/tgm-config.php:50
+msgid "One Click Demo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1076
+msgid "Our More Projects"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:229
+msgid "Page"
+msgstr ""
+
+#: inc/options/page-options.php:212 inc/options/page-options.php:228
+msgid "Page Banner Area"
+msgstr ""
+
+#: inc/options/page-options.php:455
+msgid "Page Extra Option"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1107
+msgid "Page not found"
+msgstr ""
+
+#: inc/options/page-options.php:5
+msgid "Page Options"
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:128
+msgid "Pages:"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Password"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:137
+msgid "Perfect"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search ..."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Nunito+Sans Sans, translate this to 'off'. Do not translate into your own language.
+#: inc/register-custom-fonts.php:18
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:850
+msgid "Portfolio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:878
+msgid "Portfolio Button Text"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:6
+msgid "Portfolio Options"
+msgstr ""
+
+#. %s: post author.
+#: inc/underscore/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: comments.php:99
+msgid "Post Comment"
+msgstr ""
+
+#. %s: post date.
+#: inc/underscore/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: inc/underscore/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:68
+msgid "Primary"
+msgstr ""
+
+#: functions.php:114
+msgid "primary"
+msgstr ""
+
+#: inc/customizer/color.php:89
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/color.php:112
+msgid "Primary Light Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1200
+msgid "Product Single Page"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:29 inc/options/theme/option-framework.php:953
+#: inc/options/theme/option-framework.php:965
+msgid "Project Types"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:964
+msgid "Project Types Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:646
+#: inc/options/theme/option-framework.php:779
+msgid "Publish Date"
+msgstr ""
+
+#: inc/options/post-format-options.php:144
+msgid "Quote Author Name"
+msgstr ""
+
+#: inc/options/post-format-options.php:163
+msgid "Quote Author Name Designation"
+msgstr ""
+
+#: inc/options/post-format-options.php:140
+msgid "Quote Post Options"
+msgstr ""
+
+#. Author of the theme
+msgid "Rainbow-Themes"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:136
+msgid "Rate&hellip;"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:725
+msgid "Read More"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:712
+msgid "Read More Button"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:723
+msgid "Read More Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:668
+#: inc/options/theme/option-framework.php:801
+msgid "Reading Time"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:476
+msgid "READY TO DO THIS"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/tgm-config.php:35
+msgid "Redux Framework"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:70
+#: woocommerce/myaccount/form-login.php:107
+#: woocommerce/myaccount/form-login.php:107
+msgid "Register"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1057
+msgid "Related Portfolio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1224
+msgid "Related Products"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1069
+msgid "Related Work"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:933
+#: inc/options/theme/option-framework.php:945
+msgid "Release Date"
+msgstr ""
+
+#: inc/options/portfolio-meta.php:64
+msgid "Release date"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:944
+msgid "Release Date Text"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:51
+msgid "Remember me"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1240
+msgid "Reviews Tab"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:177
+msgid ""
+"Right now the white logo is not used anywhere. Note: Header Upcoming ..."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:620
+#: inc/options/theme/option-framework.php:622
+#: inc/options/theme/option-framework.php:1170
+#: inc/options/theme/option-framework.php:1172
+msgid "Right Sidebar"
+msgstr ""
+
+#: woocommerce/product-searchform.php:24
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr ""
+
+#: template-parts/title/breadcrumb.php:234
+#: template-parts/title/blog-title.php:48
+msgid "Search results for: "
+msgstr ""
+
+#: functions.php:119
+msgid "Secondary"
+msgstr ""
+
+#: inc/customizer/color.php:147
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer/color.php:170
+msgid "Secondary Light Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1068
+msgid "Section Title Before Text"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1075
+msgid "Section Title Text"
+msgstr ""
+
+#: inc/global-functions.php:118
+msgid "Select a Menu"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:537
+msgid "Select banner Layout"
+msgstr ""
+
+#: inc/options/page-options.php:252
+msgid "Select Banner Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:611
+msgid "Select Blog Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:898
+msgid ""
+"Select Excerpt or Breadcrumbs. If you want to empty this please select none."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:442
+msgid "Select Footer Layout"
+msgstr ""
+
+#: inc/options/page-options.php:419
+msgid "Select Footer Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:351
+msgid "Select Header Layout"
+msgstr ""
+
+#: inc/options/page-options.php:49
+msgid "Select Header Template"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:146
+msgid "Select Logo Type"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:147
+msgid ""
+"Select logo type, if the image is chosen the existing options of  image "
+"below will work, or text option will work. (Note: Used when Transparent "
+"Header is enabled.)"
+msgstr ""
+
+#: inc/options/page-options.php:86
+msgid "Select Menu"
+msgstr ""
+
+#: inc/options/page-options.php:471
+msgid "Select Page Skin"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1161
+msgid "Select Shop Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:897
+msgid "Select Title Bellow Content"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:210
+msgid "Set custom logo height. Default value: 66px"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1131
+msgid "Set the custom text of go to home page button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:724
+msgid "Set the Default title of read more button."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1003
+msgid "Share options"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: inc/widget-area-register.php:23
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:638
+#: inc/options/theme/option-framework.php:649
+#: inc/options/theme/option-framework.php:660
+#: inc/options/theme/option-framework.php:671
+#: inc/options/theme/option-framework.php:682
+#: inc/options/theme/option-framework.php:693
+#: inc/options/theme/option-framework.php:704
+#: inc/options/theme/option-framework.php:715
+#: inc/options/theme/option-framework.php:771
+#: inc/options/theme/option-framework.php:782
+#: inc/options/theme/option-framework.php:793
+#: inc/options/theme/option-framework.php:804
+#: inc/options/theme/option-framework.php:815
+#: inc/options/theme/option-framework.php:826
+#: inc/options/theme/option-framework.php:837
+#: inc/options/theme/option-framework.php:870
+#: inc/options/theme/option-framework.php:916
+#: inc/options/theme/option-framework.php:936
+#: inc/options/theme/option-framework.php:956
+#: inc/options/theme/option-framework.php:976
+#: inc/options/theme/option-framework.php:1006
+#: inc/options/theme/option-framework.php:1018
+#: inc/options/theme/option-framework.php:1031
+#: inc/options/theme/option-framework.php:1044
+#: inc/options/theme/option-framework.php:1060
+#: inc/options/theme/option-framework.php:1209
+#: inc/options/theme/option-framework.php:1217
+#: inc/options/theme/option-framework.php:1225
+#: inc/options/theme/option-framework.php:1233
+#: inc/options/theme/option-framework.php:1241
+#: inc/options/theme/option-framework.php:1249
+#: inc/options/theme/option-framework.php:1268
+msgid "Show"
+msgstr ""
+
+#: inc/options/page-options.php:395
+msgid "Show Footer"
+msgstr ""
+
+#: inc/options/page-options.php:25
+msgid "Show Header"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:636
+#: inc/options/theme/option-framework.php:769
+msgid "Show or hide the author of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:691
+#: inc/options/theme/option-framework.php:824
+msgid "Show or hide the categories of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:680
+#: inc/options/theme/option-framework.php:813
+msgid "Show or hide the comments of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1016
+msgid "Show or hide the facebook share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1042
+msgid "Show or hide the linkedin share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:868
+msgid ""
+"Show or hide the portfolio case study (View Details) button of portfolio "
+"archive and addons"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:914
+msgid "Show or hide the portfolio client name of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:974
+msgid "Show or hide the portfolio live preview of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:954
+msgid "Show or hide the portfolio project types of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:934
+msgid "Show or hide the portfolio release date of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:669
+#: inc/options/theme/option-framework.php:802
+msgid "Show or hide the publish content reading time."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:647
+#: inc/options/theme/option-framework.php:780
+msgid "Show or hide the publish date of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:713
+msgid "Show or hide the read more button of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1058
+msgid ""
+"Show or hide the related portfolio area of portfolio single post bellow "
+"section."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1004
+msgid "Show or hide the social share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:702
+#: inc/options/theme/option-framework.php:835
+msgid "Show or hide the tags of blog post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1029
+msgid "Show or hide the twitter share button of portfolio single post."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:658
+#: inc/options/theme/option-framework.php:791
+msgid "Show or hide the updated date of blog post."
+msgstr ""
+
+#: inc/widget-area-register.php:12 inc/helper/layout-trait.php:227
+msgid "Sidebar"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:736
+#: inc/options/theme/option-framework.php:889
+msgid "Single"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:238
+msgid "Site Title"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:246
+msgid "Site Title Font Settings"
+msgstr ""
+
+#: woocommerce/custom/template-parts/content-product-sku.php:15
+msgid "SKU:"
+msgstr ""
+
+#: functions.php:147
+msgid "Small"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:299
+msgid "Social Icons"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:290
+#: inc/options/theme/option-framework.php:292
+msgid "Social Networks"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1105
+msgid "Sub Title"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:128
+msgid "Switch to Dark Mode"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:186
+msgid "Symbol Logo"
+msgstr ""
+
+#: woocommerce/custom/template-parts/content-product-meta.php:13
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: list of tags.
+#: inc/underscore/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:701
+#: inc/options/theme/option-framework.php:834
+#: inc/options/theme/option-framework.php:1216
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/color.php:400
+msgid "Text Color"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1114
+msgid "The page you were looking for could not be found."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1098
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/color.php:379
+msgid "Title Color"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1028
+msgid "Twitter"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:657
+#: inc/options/theme/option-framework.php:790
+msgid "Updated Date"
+msgstr ""
+
+#: inc/options/post-format-options.php:10
+msgid "Upload Audio"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:563
+msgid "Upload Banner Background Image"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:564
+msgid "Upload the banner background image of your banner layout one & two."
+msgstr ""
+
+#: inc/options/theme/option-framework.php:167
+msgid ""
+"Upload the dark logo of your site. Note: Its work when your header is sticky"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:197
+msgid ""
+"Upload the footer logo of your site. Note: Its work for footer layout 2 and 3"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:157
+msgid "Upload the main logo of your site. Note: Its work for header layout 1"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:187
+msgid ""
+"Upload the symbol logo of your site. Note: Its work for header layout 2,3 "
+"and 4"
+msgstr ""
+
+#: inc/options/user-extra-meta.php:6
+msgid "User Social Media"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:79
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:141
+msgid "Very Poor"
+msgstr ""
+
+#: inc/options/post-format-options.php:206
+msgid "Video Link"
+msgstr ""
+
+#: inc/options/post-format-options.php:202
+msgid "Video Post\tOptions"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:992
+msgid "Visit Live Site"
+msgstr ""
+
+#: comments.php:93
+msgid "Website"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Welcome to ImRoz WordPress Creative Agency, Portfolio and Corporate Multi-"
+"Purpose Theme Built With Elementor Page Builder!"
+msgstr ""
+
+#: functions.php:139
+msgid "White"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:176
+msgid "White Logo"
+msgstr ""
+
+#: inc/options/theme/option-framework.php:1145
+msgid "WooCommerce"
+msgstr ""
+
+#: comments.php:101
+msgid "Write your comment here… "
+msgstr ""
+
+#: inc/options/theme/option-framework.php:129
+#: inc/options/theme/option-framework.php:270
+#: inc/options/theme/option-framework.php:280
+msgid "Yes"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: template-parts/content-single.php:86
+#: template-parts/post/content-audio.php:30
+msgid "Your browser does not support the audio tag."
+msgstr ""
+
+#: inc/comment-form.php:32 inc/comment-form.php:113
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:60
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:134
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/custom/wooc-functions.php:145
+msgid "Your Review *"
+msgstr ""

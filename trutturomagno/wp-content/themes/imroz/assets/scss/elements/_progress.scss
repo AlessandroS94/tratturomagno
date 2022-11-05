@@ -1,0 +1,117 @@
+.progress-wrapper{
+    h3{
+        &.heading{
+            font-size: 24px;
+            margin-bottom: 60px;
+            @media #{$sm-layout} {
+                margin-bottom: 30px;
+            }
+            @media #{$md-layout} {
+                margin-bottom: 30px;
+            }
+            @media #{$lg-layout} {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+.rn-progress-area {
+    .heading {
+        .title {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+
+.rn-progress-charts {
+    overflow: hidden;
+    @media #{$md-layout} {
+        margin-top: 20px !important;
+    }
+    @media #{$sm-layout} {
+        margin-top: 20px !important;
+    }
+    .heading{
+        font-weight: 500;
+        color: var(--color-body);
+        font-size: 18px;
+        @media #{$sm-layout} {
+            font-size: 16px;
+        }
+        span {
+            &.percent-label{
+                font-weight: 500;
+                color: var(--color-body);
+                font-size: 18px;
+            }
+        }
+    }
+    .progress {
+        height: 4px;
+        overflow: visible;
+        font-size: 14px;
+        background-color: #f5f5f5;
+        border-radius: 0;
+        .progress-bar {
+            overflow: visible;
+            position: relative;
+            background-color: var(--color-primary);
+            background-image: linear-gradient(-224deg,var(--color-primary),var(--color-secondary));
+ 
+            &.custom-color--4{
+                color: rgb(229, 82, 154);
+                background-color: rgb(231, 118, 84);
+                background-image: linear-gradient(-224deg, rgb(231, 118, 84) 0px, rgb(229, 82, 154) 100%);
+            }
+            span{
+                &.percent-label{
+                    position: absolute;
+                    color: var(--color-heading);
+                    right: -7px;
+                    top: -35px;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    &.custom-color--2 {
+        .progress-bar {
+            background-color: #0d8abc;
+            background-color: rgb(13, 138, 188);
+            background-image: linear-gradient(-224deg,#0d8abc,#61fded);
+        }
+    }
+
+    &.custom-color--3 {
+        .progress-bar {
+            color: rgb(238, 206, 144);
+            background-color: rgb(212, 85, 41);
+            background-image: linear-gradient(-224deg, rgb(212, 85, 41) 0px, rgb(238, 206, 144) 100%);
+        }
+    }
+
+    &.custom-color--4 {
+        .progress-bar {
+            color: rgb(229, 82, 154);
+            background-color: rgb(231, 118, 84);
+            background-image: linear-gradient(-224deg, rgb(231, 118, 84) 0px, rgb(229, 82, 154) 100%);
+        }
+    }
+    &.progress-bar--2 {
+        .progress {
+            height: 1px;
+            border-radius: 1px;
+        }
+    }
+    &.progress-bar--3 {
+        .progress {
+            height: 20px;
+            border-radius: 0;
+        }
+    }
+}

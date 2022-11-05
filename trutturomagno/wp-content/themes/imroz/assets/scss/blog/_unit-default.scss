@@ -1,0 +1,596 @@
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+    /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    clip-path: none;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+    outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+    clear: both;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+figure {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.wp-block-button {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.alignwide {
+    margin-left: -110px;
+    margin-right: -110px;
+    max-width: 1230px;
+    width: auto;
+    margin-bottom: 20px;
+    @media #{$lg-layout} {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    @media #{$md-layout} {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    @media #{$sm-layout} {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 100vw;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+
+.wp-block-image,
+.wp-block-cover {
+    max-width: 100%;
+    margin-bottom: 20px;
+    .alignleft {
+        float: left;
+        display: table;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    &.alignright {
+        float: right;
+        margin-left: 20px;
+        display: table;
+    }
+    figcaption {
+        caption-side: bottom;
+        margin: 20px 0 0;
+        font-size: 16px;
+        a {
+            text-decoration: none;
+            color: var(--color-heading);
+            &:hover {
+                color: var(--color-primary);
+            }
+        }
+    }
+    &.alignfull {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        width: auto;
+        max-width: 100vw;
+        margin-bottom: 15px;
+    }
+    &.alignwide {
+        margin-left: -110px;
+        margin-right: -110px;
+        max-width: 1230px;
+        width: auto;
+        margin-bottom: 40px;
+        @media #{$lg-layout} {
+            margin-left: -50px;
+            margin-right: -50px;
+        }
+        @media #{$md-layout} {
+            margin-left: -50px;
+            margin-right: -50px;
+        }
+        @media #{$sm-layout} {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    &.alignfull {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        max-width: 100vw;
+        width: auto;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    a {
+        transition: 0.3s;
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+
+    img {
+        border-radius: 10px;
+    }
+}
+
+.wp-block-file {
+    a {
+        font-size: 16px;
+        line-height: 1.8;
+        color: var(--color-body);
+        display: inline-block;
+        transition: 0.3s;
+        &:hover {
+            color: var(--color-primary);
+        }
+    }
+}
+
+.wp-block-archives-dropdown,
+.wp-block-categories-dropdown {
+    margin-bottom: 30px;
+}
+
+.wp-block-calendar table caption,
+.wp-block-calendar table tbody,
+.wp-block-latest-comments__comment-date {
+    color: var(--color-body);
+}
+
+.wp-block-calendar tbody td,
+.wp-block-calendar th,
+.wp-block-table td,
+.wp-block-table th {
+    border: 1px solid var(--color-border);
+}
+
+.wp-block-separator {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.wp-block-calendar tfoot a,
+.entry-content .wp-block-calendar tfoot a {
+    color: var(--color-heading);
+    text-decoration: none;
+}
+
+ol.has-avatars,
+ol.wp-block-latest-comments {
+    padding-left: 0;
+}
+
+.wp-block-cover {
+    &.alignleft {
+        padding: 0;
+    }
+}
+
+.blocks-gallery-caption,
+.wp-block-embed figcaption,
+.wp-block-image figcaption {
+    color: var(--color-body);
+    font-size: 15px;
+    text-align: center;
+}
+
+figcaption,
+.wp-block-image figcaption {
+    margin: 10px 0 0;
+    line-height: 1.7;
+    color: var(--color-body);
+    a {
+        color: var(--color-body);
+    }
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.wp-caption {
+    margin-bottom: 15px;
+    max-width: 100%;
+    .wp-caption-text {
+        margin: 8px 0;
+        text-align: center;
+    }
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+.screen-reader-text {
+    display: none;
+}
+
+
+
+
+table th,
+table td,
+.wp-block-calendar tbody th,
+.wp-block-calendar tbody td,
+.wp-block-table td,
+.wp-block-table th {
+    border: 1px solid var(--color-border);
+    padding: 7px 10px;
+    text-align: center;
+}
+
+table,
+.wp-block-calendar {
+    font-size: 16px !important;
+    line-height: 28px;
+}
+
+.post-password-form input[type="submit"] {
+    margin-top: 0;
+    border: 2px solid var(--color-primary);
+    display: inline-block;
+    padding: 9px 20px;
+    margin-left: 10px;
+}
+
+.wp-block-group.has-background {
+    margin-bottom: 20px;
+}
+
+.wp-block-separator.is-style-dots:before {
+    content: "\00b7 \00b7 \00b7";
+    color: #717173;
+    font-size: 20px;
+    letter-spacing: 2em;
+    padding-left: 2em;
+    font-family: serif;
+}
+
+.wp-block-table a,
+table a {
+    transition: 0.3s;
+}
+
+
+ul {
+    &.aligncenter {
+        list-style: inside;
+        ul {
+            list-style: inside;
+        }
+    }
+}
+
+.wp-block-coblocks-alert {
+    margin-bottom: 15px;
+}
+
+.wp-block-coblocks-highlight__content:not(.has-background) {
+    background-color: var(--color-primary);
+}
+
+.has-secondary-background-color {
+    background-color: var(--color-secondary);
+}
+
+a.post-edit-link {
+    background: var(--color-primary);
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.has-medium-font-size {
+    font-size: 20px;
+}
+.has-small-font-size {
+    font-size: 12px;
+}
+.has-large-font-size {
+    font-size: 36px;
+}
+
+
+
+
+/*------------------------
+    Code New  
+--------------------------*/
+table th, 
+table td {
+    padding: 10px;
+}
+
+.wp-calendar-table th,
+.wp-calendar-table td {
+    padding: 7px;
+}
+table thead th, 
+.wp-calendar-table thead th {
+    color: var(--color-heading);
+}
+
+table th {
+    font-weight: 600;
+    color: var(--color-heading);
+}
+
+table a,
+table a:link,
+table a:visited {
+    font-weight: 400;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+    word-wrap: break-word;
+}
+
+.bypostauthor {
+    display: block;
+}
+
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+    display: block;
+}
+
+/* .post,
+.page {
+	margin: 0 0 1.5em;
+} */
+
+.updated:not(.published) {
+    display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+    margin: 1.5em 0 0;
+}
+
+.page-links {
+    clear: both;
+    margin: 0 0 1.5em;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+    /* Theme Footer (when set to scrolling) */
+    display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+    display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+    max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+    display: inline-block;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+    margin-bottom: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+.wp-block-coblocks-highlight__content {
+    padding: 2px 8px;
+}
+
+
+
+
+

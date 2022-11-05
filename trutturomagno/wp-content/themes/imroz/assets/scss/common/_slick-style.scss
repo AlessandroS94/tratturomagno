@@ -1,0 +1,148 @@
+/*-----------------------------
+    Slick Styles  
+-------------------------------*/
+.slick-space-gutter--15 {
+    .im_box {
+        margin: 50px 0;
+    }
+}
+
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-initialized .slick-slide {
+    margin-bottom: 0;
+}
+.slick-initialized .slick-slide > div {
+    height: 100% !important;
+    display: flex;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.portfolio-slick-activation {
+    .im_box {
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
+.imroz-slick-active {
+    position: relative;
+    &.slick-dot-bottom {
+        ul {
+            &.slick-dots {
+                position: absolute;
+                bottom: 40px;
+                li {
+                    width: 30px;
+                    margin: 0;
+                    opacity: .35;
+                    position: relative;
+                    button {
+                        &::before {
+                            display: none;
+                        }
+                        &::after {
+                            background: #333;
+                            width: 100%;
+                            display: block;
+                            content: '';
+                            position: absolute;
+                            left: 0;
+                            width: 6px;
+                            height: 6px;
+                            border-radius: 50%;
+                            margin-left: 11px;
+                            background-color: transparent;
+                            -webkit-box-shadow: inset 0 0 0 5px #000;
+                            box-shadow: inset 0 0 0 5px #000;
+                            @extend %transition;
+                        }
+                    }
+
+                    &.slick-active {
+                        opacity: 1;
+                        button {
+                            &::after {
+                                -webkit-transform: scale(2);
+                                -ms-transform: scale(2);
+                                transform: scale(2);
+                                -webkit-box-shadow: inset 0 0 0 1px var(--color-primary);
+                                box-shadow: inset 0 0 0 1px var(--color-primary);
+                                background-color: transparent;
+                                background-color: transparent !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.slick-arrow-left-to-right {
+        .slick-arrow {
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            z-index: 2;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+            opacity: 1;
+            width: 68px;
+            height: 68px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 100%;
+            &::before {
+                line-height: 1;
+                opacity: 0.4;
+                position: relative;
+                top: -2px;
+                -webkit-transition: 0.5s;
+                -o-transition: 0.5s;
+                transition: 0.5s;
+                z-index: 2;
+            }
+            &:hover {
+                background: var(--color-primary);
+                border-color: var(--color-primary);
+            }
+        }
+        .slick-arrow {
+            &.slick-prev {
+                left: 15px;
+                &::before {
+                    content: url(../images/icons/slick-arrow-left-small.png);
+                }
+                &:hover {
+                    left: 10px;
+                    &::before {
+                        opacity: 1;
+                    }
+                }
+            }
+            &.slick-next  {
+                left: auto;
+                right: 15px;
+                &::before {
+                    content: url(../images/icons/slick-arrow-right-small.png);
+                }
+                &:hover {
+                    right: 10px;
+                    &::before {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+

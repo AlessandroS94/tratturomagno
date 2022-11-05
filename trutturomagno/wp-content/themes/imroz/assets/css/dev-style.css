@@ -1,0 +1,185 @@
+/**
+ * Development Extra Style
+ * Create by WP Author
+ */
+
+.rt-dev-slider-1 .slide .inner .sub-title {
+    color: rgba(198, 201, 216, 0.75);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 20px;
+}
+.rt-dev-slider-1 .slide .inner .subtitle-2 {
+    color: #c6c9d8;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.single-service.service__style--3 .icon i {
+    margin-bottom: 34px;
+}
+.rt-dev-slider-1 .slide{
+    background-color: #00010c;
+}
+.rt-dev-slider-1 .slide.slide-style-1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.overlay::before{
+    position: relative;
+}
+.overlay::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+
+/* Portfolio */
+.related-work .thumb a img {
+    object-fit: cover;
+}
+
+/* Gallery */
+
+
+/* Counter Up */
+.counterup_style--1 .counter.counter-percentage::after{
+    content: "%";
+}
+.counterup_style--1 .counter.counter-k::after{
+    content: "K";
+}
+.counterup_style--1 .counter.counter-none::after{
+    content: "";
+}
+
+
+/* Blog */
+.blog.blog-style--1 {
+    min-height: 250px;
+    background-color: #00010cd1;
+}
+
+
+/* Brand */
+ul.brand-style li a {
+    display: block;
+}
+
+/* List Style */
+.list-style--1 li .icon img{
+    margin-right: 5px;
+}
+
+/* Testimonial */
+.quote-icon-none .rn-testimonial-content .inner p::before, .quote-icon-none .rn-testimonial-content .inner p::after{
+    display: none;
+}
+
+/* Tab */
+.single-tab-content{
+    font-weight: 300;
+    color: #717173;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* About */
+.about-wrapper .thumbnail img{
+    object-fit: cover;
+}
+
+.rbt-section-height-full .rbt-height-control {
+    height: 100vh;
+}
+
+.thumbnail img,
+.designer-thumbnail img{
+    object-fit: cover;
+}
+
+.slick-initialized .slick-slide {
+    margin-bottom: 0;
+}
+
+/* Ajax Button */
+
+/* Text Loading*/
+.text-loading {
+    position: relative;
+}
+.text-loading::after {
+    content: " Please wait... ";
+    display: block;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    width: 100%;
+    font-size: 16px;
+    color: #666666;
+    font-weight: normal;
+    text-transform: none;
+    text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.disabled {
+    pointer-events: none;
+}
+.disabled span{
+    opacity: .50;
+}
+
+/* Portfolio */
+.row--5 .portfolio-tilthover .portfolio {
+    margin-top: 10px;
+}
+
+/* Sidebar */
+.rbt-single-widget.widget_media_image img.image {
+    border-radius: 4px;
+}
+
+.rbt-single-widget.widget_media_image {
+    padding: 0;
+    border: none;
+}
+
+/**
+* Coming Soon Mode Active
+**/
+.elementor-maintenance-mode header.header-area {
+    display: none;
+}
+.elementor-maintenance-mode footer.footer-area {
+    display: none;
+}
+
+/* Update CSS */
+.im_portfolio .thumbnail img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+ul.testimonial-thumb-wrapper li a.active .thumb img {
+    object-fit: cover;
+}
+
+
+.counter.counter-percentage:after{content:"%" !important}
+.counter.counter-k:after{content:"K" !important}
+.counter.counter-none:after{content:"" !important}

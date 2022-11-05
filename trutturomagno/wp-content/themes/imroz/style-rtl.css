@@ -1,0 +1,479 @@
+/*!
+Theme Name: Imroz
+Theme URI: http://rainbowit.net/themes/imroz
+Author: Rainbow-Themes
+Author URI: http://rainbowit.net/
+Description: Welcome to ImRoz WordPress Creative Agency, Portfolio and Corporate Multi-Purpose Theme Built With Elementor Page Builder!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: imroz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+imroz is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+html {
+	direction: rtl;
+	unicode-bidi: isolate;
+}
+
+.mainmenunav ul.mainmenu>li:first-child {
+	margin-left: 15px;
+}
+
+a.btn-transparent::after {
+	left: auto;
+	right: 0;
+}
+
+.service.service__style--2.text-left .icon {
+	justify-content: right;
+}
+
+.im_counterup .inner .icon {
+	text-align: right;
+}
+
+.im_counterup .inner .counter {
+	display: block;
+	text-align: right;
+}
+
+.rn-testimonial-content .inner p::before {
+	left: auto;
+	right: -64px;
+	transform: rotate(180deg);
+}
+
+
+
+.elementor-270 .elementor-element.elementor-element-cd9a3a1>.elementor-element-populated {
+	padding: 15px 60px 15px 15px;
+}
+
+.elementor-270 .elementor-element.elementor-element-38980fb>.elementor-element-populated {
+	padding: 15px 45px 15px 15px;
+}
+
+.contact-form--1 input,
+.contact-form--1 textarea {
+	text-align: right;
+}
+
+.contact-form--1 input[type=submit],
+.contact-form--1 textarea[type=submit] {
+	text-align: right;
+	margin-left: auto;
+}
+
+.footer-style-2 .text-center {
+	text-align: right !important;
+}
+
+.footer-style-2 .inner.text-center {
+	text-align: left !important;
+}
+
+.header-style-3 .mainmenunav ul.mainmenu>li ul.submenu {
+	left: auto;
+	right: 0;
+}
+
+.imroz-active-onepage-navigation .header-area .mainmenu>li:first-child {
+	margin-left: 15px;
+}
+
+.form-submit {
+	text-align: right;
+}
+
+.rn-progress-charts .progress .progress-bar span.percent-label {
+	right: auto;
+	left: -7px;
+}
+
+.footer-style-01 .call-to-cation-tbn {
+	text-align: left;
+}
+
+.team.team-style--bottom ul.social-icon {
+	left: auto;
+	right: 40px;
+}
+
+.elementor-309 .elementor-element.elementor-element-e5a195c>.elementor-element-populated {
+	padding: 15px 30px 15px 15px;
+}
+
+.elementor-309 .elementor-element.elementor-element-ac52633>.elementor-element-populated {
+	padding: 15px 60px 15px 15px;
+}
+
+.elementor-577 .elementor-element.elementor-element-09a4caf>.elementor-element-populated {
+	padding: 15px 60px 15px 15px;
+}
+
+.elementor-418 .elementor-element.elementor-element-1331fd3>.elementor-element-populated {
+	padding: 15px 25px 15px 15px;
+}
+
+.elementor-401 .elementor-element.elementor-element-49e85e2>.elementor-element-populated {
+	padding: 15px 25px 15px 15px;
+}
+
+.imroz-blog-list.sticky::before {
+	right: auto;
+	left: 40px;
+}
+
+.imroz-blog-list.sticky::after {
+	right: auto;
+	left: 40px;
+}
+
+.wp-block-quote::before,
+blockquote::before,
+.wp-block-coblocks-click-to-tweet::before,
+.wp-block-pullquote blockquote::before,
+.wp-block-quote.is-style-large::before,
+.wp-block-quote.is-large::before,
+blockquote.has-text-align-right::before,
+.wp-block-quote.has-text-align-right::before {
+	left: auto;
+	right: 30px;
+}
+
+.wp-block-quote,
+blockquote,
+.wp-block-coblocks-click-to-tweet,
+.wp-block-pullquote blockquote,
+.wp-block-quote.is-style-large,
+.wp-block-quote.is-large,
+blockquote.has-text-align-right,
+.wp-block-quote.has-text-align-right {
+	padding: 40px 100px 40px 40px;
+}
+
+.imroz-blog-list ul.blog-meta li svg {
+	margin-right: 0;
+	margin-left: 6px;
+}
+
+.footer-style-01 .footer-widget .menu li a::after,
+.footer-style-01 .footer-widget ul li a::after {
+	left: 0;
+	right: auto;
+}
+
+.footer-style-01 .footer-widget .menu li a:hover::after,
+.footer-style-01 .footer-widget ul li a:hover::after {
+	left: auto;
+	right: 0;
+}
+
+.imroz-blog-list.format-link .sticky {
+	margin-right: 0;
+	margin-left: 18px;
+}
+
+.rn-pricing .pricing-table-inner .pricing-body ul.list-style--1 li i {
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.team ul.social-icon {
+	left: auto;
+	right: 35px;
+}
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+	right: auto;
+	left: -6px;
+	text-align: left;
+	padding-right: 0;
+	padding-left: 6px;
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+
+.list-style--1 li i,
+.list-style--1 li svg {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.elementor-208 .elementor-element.elementor-element-dc9e2be>.elementor-element-populated {
+	padding: 0px 0px 0px 35px;
+}
+
+menu,
+ol,
+ul {
+	padding: 0 20px 0 0px;
+}
+
+.slider-activation button.slick-arrow.slick-prev {
+	left: 30px;
+	right: auto;
+}
+
+
+.slide.slide-style-2 .inner.text-left {
+	text-align: right;
+}
+
+.slide.slide-style-2 .inner.text-left p {
+	padding: 0 0 0 37%;
+}
+
+.header-area .header-right .header-btn {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.slide.personal-portfolio-slider.slider-paralax.slider-style-3 .inner.text-left {
+	text-align: right;
+}
+
+.elementor-element-388c890 .text-right {
+	text-align: left;
+}
+
+.portfolio-slick-activation button.slick-arrow.slick-prev {
+	right: auto;
+}
+
+.slide.designer-portfolio.slider-style-3 .inner {
+	text-align: right;
+}
+
+.rn-popup-mobile-menu ul.mainmenu-item li.has-children>a::after {
+	right: auto;
+	left: 0;
+}
+
+
+.rbt-mini-cart-wrap .mini-cart .rbt-cart-count {
+	left: -13px;
+	right: auto;
+}
+
+.header-area.header-style-3 .rbt-mini-cart-wrap {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.woocommerce-cart .woocommerce table.shop_table th,
+.woocommerce-cart .woocommerce table.shop_table td {
+	text-align: right;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+	text-align: right;
+}
+
+.im-hover::after,
+.footer-style-01 .ft-text p a::after {
+	left: auto;
+	right: 0;
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table th {
+	text-align: right;
+}
+
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+	margin-right: 10px;
+}
+
+.woocommerce-cart .woocommerce .actions #coupon_code {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+
+.header-area.header-style-3 .mainmenunav ul.mainmenu>li:first-child {
+	margin-right: 30px;
+}
+
+
+.elementor-270 .elementor-element.elementor-element-cd9a3a1 > .elementor-element-populated,
+.elementor-458 .elementor-element.elementor-element-7bdc795 > .elementor-element-populated,
+.elementor-309 .elementor-element.elementor-element-ac52633 > .elementor-element-populated,
+.elementor-577 .elementor-element.elementor-element-09a4caf > .elementor-element-populated,
+.elementor-401 .elementor-element.elementor-element-70c9a5d > .elementor-element-populated,
+.elementor-1228 .elementor-element.elementor-element-a927ec0 > .elementor-element-populated {
+	padding: 15px 60px 15px 15px !important;
+} 
+
+.elementor-270 .elementor-element.elementor-element-38980fb > .elementor-element-populated {
+    padding: 15px 45px 15px 15px !important;
+}
+
+.elementor-309 .elementor-element.elementor-element-e5a195c > .elementor-element-populated,
+.elementor-712 .elementor-element.elementor-element-a4c7cba > .elementor-element-populated,
+.elementor-418 .elementor-element.elementor-element-1331fd3 > .elementor-element-populated,
+.elementor-401 .elementor-element.elementor-element-49e85e2 > .elementor-element-populated {
+    padding: 15px 30px 15px 15px !important;
+}
+
+.elementor-577 .elementor-element.elementor-element-32c1145 > .elementor-element-populated,
+.elementor-1228 .elementor-element.elementor-element-8a6a703 > .elementor-element-populated {
+    padding: 15px 15px 15px 30px !important;
+}
+
+.elementor-162 .elementor-element.elementor-element-4f3f845 > .elementor-element-populated {
+	padding: 0px 35px 0px 0px !important;
+}
+.imroz-active-onepage-navigation .header-area .mainmenu > li > .nav-link::before {
+	left: auto;
+    right: 0;
+}
+
+.my_switcher {
+	margin-left: 0;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.rn-testimonial-content .inner p::before {
+		left: auto;
+		right: 0;
+	}
+	.header-area .header-right .header-btn {
+		margin-left: 0;
+		margin-right: 10px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.rn-testimonial-content .inner p::before {
+		left: auto;
+		right: 0;
+	}
+
+	.header-area .header-right .header-btn {
+		margin-left: 8px;
+		margin-right: 0;
+	}
+
+	.header-area .humberger-menu {
+		padding-left: 0px !important;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.rn-testimonial-content .inner p::before {
+		left: auto;
+		right: 0;
+	}
+	.header-area .header-right .header-btn {
+		margin-left: 4px;
+		margin-right: 0;
+	}
+	.header-area .humberger-menu {
+		padding-left: 0px !important;
+	}
+	.elementor-270 .elementor-element.elementor-element-cd9a3a1 > .elementor-element-populated,
+	.elementor-458 .elementor-element.elementor-element-7bdc795 > .elementor-element-populated,
+	.elementor-309 .elementor-element.elementor-element-ac52633 > .elementor-element-populated,
+	.elementor-577 .elementor-element.elementor-element-09a4caf > .elementor-element-populated,
+	.elementor-401 .elementor-element.elementor-element-70c9a5d > .elementor-element-populated,
+	.elementor-1228 .elementor-element.elementor-element-a927ec0 > .elementor-element-populated {
+		padding: 15px 15px 15px 15px !important;
+	} 
+	.elementor-270 .elementor-element.elementor-element-38980fb > .elementor-element-populated {
+		padding: 15px 15px 15px 15px !important;
+	}
+	.elementor-309 .elementor-element.elementor-element-e5a195c > .elementor-element-populated,
+	.elementor-712 .elementor-element.elementor-element-a4c7cba > .elementor-element-populated,
+	.elementor-418 .elementor-element.elementor-element-1331fd3 > .elementor-element-populated,
+	.elementor-401 .elementor-element.elementor-element-49e85e2 > .elementor-element-populated {
+		padding: 15px 15px 15px 15px !important;
+	}
+	
+	.elementor-577 .elementor-element.elementor-element-32c1145 > .elementor-element-populated,
+	.elementor-1228 .elementor-element.elementor-element-8a6a703 > .elementor-element-populated {
+		padding: 15px 15px 15px 15px !important;
+	}
+	
+	.elementor-162 .elementor-element.elementor-element-4f3f845 > .elementor-element-populated {
+		padding: 0px 0px 0px 0px !important;
+	}
+	.rbt-mini-cart-wrap {
+		margin-left: 4px;
+		margin-right: 0;
+	}
+
+	.header-area.header-style-3 .rbt-mini-cart-wrap {
+		margin-left: 4px !important;
+		margin-right: 0;
+	}
+
+}
+
+@media only screen and (max-width: 575px) {
+	.my_switcher {
+		margin-left: 4px;
+	}
+}

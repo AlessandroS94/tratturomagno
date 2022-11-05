@@ -1,0 +1,26 @@
+.elementor-panel .elementor-element .icon i.rt-icon::before{
+	display: none;
+}
+
+.elementor-panel .elementor-element .icon i.rt-icon::after{
+    width: 30px;
+    height: 30px;
+    content: "";
+    display: inline-block;
+    border-radius: 5px;
+	background: url("../images/icons/brand-white.png") no-repeat center center/cover;
+}
+
+
+.elementor-icons-manager__tab-link i.rt-icon{
+    width: 30px;
+    height: 30px;
+    content: "";
+    border-radius: 100%;
+    background: url(../images/icons/brand-white.png) no-repeat center center/cover;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-right: 6px;
+}
+

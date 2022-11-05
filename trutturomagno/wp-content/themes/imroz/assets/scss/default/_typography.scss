@@ -1,0 +1,282 @@
+/**
+ * Typography
+ */
+
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	overflow: hidden;
+	overflow-y: auto;
+	scroll-behavior: auto;
+}
+
+body {
+	overflow: hidden;
+	font-size: var(--font-size-b1);
+    line-height: var(--line-height-b1);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: var(--font-primary);
+	color: var(--color-gray);
+	font-weight: 400;
+	@media #{$sm-layout} {
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+a {
+	transition: all 0.4s ease-in-out 0s;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+address,
+p,
+pre,
+blockquote,
+dl,
+dd,
+menu,
+ol,
+ul,
+table,
+caption,
+hr {
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: var(--font-secondary);
+	line-height: 1.4074;
+	color: var(--color-heading);
+	word-break: break-word;
+}
+
+h1,
+.h1 {
+	font-size: var(--h1);
+}
+h2,
+.h2 {
+	font-size: var(--h2);
+}
+h3,
+.h3 {
+	font-size: var(--h3);
+}
+h4,
+.h4 {
+	font-size: var(--h4);
+}
+h5,
+.h5 {
+	font-size: var(--h5);
+}
+h6,
+.h6 {
+	font-size: var(--h6);
+}
+
+@media #{$md-layout} {
+	h1,
+	.h1 {
+		font-size: 40px;
+	}
+	
+	h2,
+	.h2 {
+		font-size: 34px;
+	}
+
+	h3,
+	.h3 {
+		font-size: 30px;
+	}
+}
+
+@media #{$sm-layout} {
+	h1,
+	.h1 {
+		font-size: 34px;
+	}
+	
+	h2,
+	.h2 {
+		font-size: 32px;
+	}
+
+	h3,
+	.h3 {
+		font-size: 30px;
+	}
+}
+
+@media #{$large-mobile} {
+	h1,
+	.h1 {
+		font-size: 34px;
+	}
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+	font-weight: 700;
+}
+
+h4,
+.h4,
+h5,
+.h5 {
+	font-weight: 600;
+}
+
+h6,
+.h6 {
+	font-weight: 500;
+}
+
+p {
+    font-size: var(--font-size-b1);
+	line-height: var(--line-height-b1);
+	margin-bottom: 30px;
+	color: var(--color-body);
+    @media #{$sm-layout} {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+	br {
+		@media #{$sm-layout} {
+			display: none;
+		}
+	}
+}
+
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	outline: none;
+}
+a:visited {
+	color: inherit;
+}
+input,
+button,
+select,
+textarea {
+	background: transparent;
+	border: 1px solid var(--color-border);
+	transition: all 0.4s ease-out 0s;
+	color: var(--color-gray);
+	&:focus,
+	&:active {
+		outline: none;
+		border-color: var(--color-primary);
+	}
+}
+input,
+select,
+textarea {
+	width: 100%;
+	font-size: 14px;
+}
+input,
+select {
+	height: 40px;
+	padding: 0 15px;
+}
+
+menu,
+ol,
+ul {
+    margin: 16px 0;
+    padding: 0 0 0 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+ol {
+	margin-bottom: 30px;
+}
+
+ul li,
+ol li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(29,29,36,.75);
+    font-weight: 400;
+}
+
+ul li a,
+ol li a {
+    text-decoration: none;
+    color: var(--color-heading);
+}
+
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+li>ul,
+li>ol {
+    margin: 0;
+}
+
+dd {
+	margin: 0 15px 15px;
+}
+
+cite {
+    color: rgba(29,29,36,.75);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+mark,
+ins {
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+
+

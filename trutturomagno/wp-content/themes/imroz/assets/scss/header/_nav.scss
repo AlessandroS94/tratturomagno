@@ -1,0 +1,36 @@
+/* Navigation Styles  */
+.header-menu-left-align { 
+    .mainmenunav {
+        ul {
+            &.mainmenu {
+                > li {
+                    ul {
+                        &.submenu {
+                            li {
+                                .submenu {
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.header-menu-left-align .mainmenunav ul.mainmenu > li.last-elements ul.submenu li ul.submenu {
+    right: auto;
+    left: 100%;
+    top: 0;
+}
+.header-menu-left-align .mainmenunav ul.mainmenu > li ul.submenu li ul.submenu li ul.submenu {
+    right: auto;
+    left: 100%;
+    top: 0;
+}
+
+
+
+
+
+
